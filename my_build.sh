@@ -1,8 +1,8 @@
 # Source the environment variables
-source my_var.sh
+make clean
+make distclean
 
-# Navigate to the Valgrind source directory
-cd /path/to/valgrind
+source my_var.sh
 
 # Run the configure script with the appropriate host and target options
 ./autogen.sh
